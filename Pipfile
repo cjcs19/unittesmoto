@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple/"
+verify_ssl = false
+name = "pypi"
+
+[packages]
+boto3="*"
+
+[dev-packages]
+mock="*"
+moto="*"
+boto3="*"
+boto="*"
+botocore="*"
+sure="*"
+pytest="*"
+pytest-cov="*"
+nose="*"
+coverage="*"
+nosexcover="*"
+pylint="*"
+
+[requires]
+python_version = "3.7" #Versión de python requerida 
